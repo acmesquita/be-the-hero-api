@@ -23,6 +23,10 @@ Cria o banco e atualiza o *schema* pela migrações
 $ npx knex migrate:latest
 ```
 
+Roda os testes
+```
+$ npm test
+```
 Roda o servidor
 ```
 $ npm start
